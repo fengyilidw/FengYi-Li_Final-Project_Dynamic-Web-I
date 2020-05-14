@@ -1,0 +1,110 @@
+
+/* basic styles */
+body {
+	margin: 0;
+    background: #000 url(https://jackrugile.com/lab/fireworks-v2/images/bg.jpg);
+
+}
+
+h1{    
+
+   font-family: 'Satisfy', cursive;
+   font-family: 'Henny Penny', cursive;
+   font-family: 'Ruge Boogie', cursive;
+   font-family: 'Bonbon', cursive;
+   font-family: 'Hanalei', cursive;
+   font-family: 'Codystar', cursive;
+   font-family: 'Faster One', cursive;
+   font-family: 'Mountains of Christmas', cursive;
+   font-family: 'Monoton', cursive;
+   font-family: 'Miss Fajardose', cursive;
+   font-family: 'UnifrakturCook', cursive;
+    
+    
+   text-align:center;
+   color: white;
+   padding-top: 20px;
+
+   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+    
+   -webkit-animation:colorchange 20s infinite alternate;
+    
+   
+}
+
+
+
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: darkolivegreen;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: white;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
+
+
+
+h4{font-family: 'Actor';
+   text-align:center;
+   color: white;
+   
+    
+
+}
+
+
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
